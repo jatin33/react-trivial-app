@@ -1,0 +1,20 @@
+.inputText {
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+}
+
+.off {
+    font-size: 16px;
+    opacity: 0;
+    font-weight: bold;
+}
+
+.on {
+    position: relative;
+    bottom: 40px;
+    left: 40px; 
+    opacity: 1;
+    color: crimson;
+    transition: 0.9s all;
+}

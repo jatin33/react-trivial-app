@@ -1,0 +1,12 @@
+.login-strip {
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-link {
+    text-decoration: none;
+}
