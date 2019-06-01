@@ -1,6 +1,5 @@
 .login-strip {
     display: flex;
-    color: white;
     background-color: black;
     height: 40px;
     align-items: center;
@@ -9,4 +8,5 @@
 
 .login-link {
     text-decoration: none;
+    color: beige;
 }
