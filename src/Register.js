@@ -8,11 +8,11 @@ class Register extends React.Component {
         return (
             <div>
                 <h1>Hey! What should we call you?</h1>
-                <FloatingLabelInput placeholder="First Name" />
-                <FloatingLabelInput placeholder="Last Name" />
+                <FloatingLabelInput placeholder="First Name" componentId="fname" />
+                <FloatingLabelInput placeholder="Last Name" componentId="lname" />
                 <div className="login-strip">
-                    <Link 
-                    className='login-link' to='/home'>Continue</Link>
+                    <Link
+                        className='login-link' to='/home'>Continue</Link>
                 </div>
             </div>
         )
