@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Register.css';
+import '../styles/Register.css';
 import FloatingLabelInput from './FloatingLabelInput';
 
 class Register extends React.Component {

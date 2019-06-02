@@ -1,0 +1,20 @@
+.card-container{
+    padding: 5px;
+    margin:10px;
+    color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prop-name{
+    padding:10px;
+}
+
+.user-name{
+    color: black;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.user-edit-link{
+    text-decoration: none;
+}

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import FloatingLabelInput from './FloatingLabelInput';
 
-
 class EditDetails extends React.Component{
     render(){
         return(

@@ -1,5 +1,5 @@
 import React from 'react';
-import './FloatingLabelInput.css';
+import '../styles/FloatingLabelInput.css';
 
 class FloatingLabelInput extends React.Component {
     constructor(props) {
