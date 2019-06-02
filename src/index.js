@@ -14,7 +14,7 @@ const routing = (
             <Route exact path="/" component={App} />
             <Route path="/home" component={Home} />
             <Route path="/showuser" component={UserDetails} />
-            <Route path="/edituser" component={EditDetails} />
+            <Route path="/edituser/:name" component={EditDetails} />
         </div>
     </Router>
 );

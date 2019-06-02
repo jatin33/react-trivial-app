@@ -23,6 +23,21 @@ class FloatingLabelInput extends React.Component {
         }
     }
 
+    componentDidMount(){
+        if(this.props.componentId === "fname"){
+            if(localStorage.key("fname")){
+                this.setState({
+                    inputVal : localStorage.getItem("fname")
+                });
+            }
+        }else{
+            if(localStorage.key("lname")){
+                this.setState({
+                    inputVal: localStorage.getItem("lname")
+                });
+            }
+        }
+    }
 
     componentWillUnmount(){
         if(this.props.componentId === "fname"){
