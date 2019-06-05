@@ -14,13 +14,13 @@ class FloatingLabelInput extends React.Component {
         if(evt.target.value !== ""){
             this.setState({
                 class:"on",
-                inputVal:evt.target.value
             });
         }else{
             this.setState({
                 class:"off"
             });
         }
+        this.setState({inputVal:evt.target.value});
     }
 
     componentDidMount(){
